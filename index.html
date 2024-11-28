@@ -7,46 +7,57 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            background: url('https://github.com/andreasgrassialcon/survey-links/raw/main/background.png') no-repeat center center fixed;
+            background-size: cover;
             color: #333;
+            text-align: center;
+        }
+        header {
+            position: relative;
+            padding: 20px;
+        }
+        header img {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 100px;
+            height: auto;
         }
         h1 {
-            text-align: center;
-            color: #0056b3;
+            margin-top: 100px;
+            font-size: 2rem;
         }
-        .container {
-            max-width: 600px;
-            margin: 0 auto;
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+            font-size: 1.2rem;
         }
         a {
-            color: #0056b3;
+            color: #007bff;
             text-decoration: none;
-            font-weight: bold;
         }
         a:hover {
             text-decoration: underline;
         }
-        .file-link {
-            margin: 10px 0;
-            display: block;
-        }
     </style>
 </head>
-<body style="background-image: url('https://github.com/andreasgrassialcon/survey-links/raw/main/background.jpg'); background-size: cover;">
-<header>
-    <img src="https://github.com/andreasgrassialcon/survey-links/raw/main/logo.jpg" alt="Logo Azienda" style="position: absolute; top: 10px; left: 10px;">
-</header>
-    <div class="container">
+<body>
+    <header>
+        <img src="https://github.com/andreasgrassialcon/survey-links/raw/main/logo.png" alt="Logo Alcon">
+    </header>
+    <main>
         <h1>Materiali EYEVOLUTION</h1>
         <p>Qui può visualizzare e scaricare i seguenti materiali promozionali relativi all'evento:</p>
-        <a href="https://github.com/andreasgrassialcon/survey-links/blob/main/IT_Acrysof%20IOLs%20Flipbook%20zip.pdf" class="file-link" target="_blank">Flipbook cataratta</a>
-        <a href="https://github.com/andreasgrassialcon/survey-links/blob/main/AVS%20Summary%20LuxOR%20Revalia%20Flashcard_IT_v1.pdf" class="file-link" target="_blank">Brochure Revalia AVS</a>
-	<a href="https://github.com/andreasgrassialcon/survey-links/blob/main/AVS%20Summary%20Ngenuity%201.5%20Flashcard_IT_v1.pdf" class="file-link" target="_blank">Brochure Ngenuity AVS</a>
-    </div>
+        <ul>
+            <li><a href="https://github.com/andreasgrassialcon/survey-links/raw/main/flipbook.pdf" target="_blank">Flipbook cataratta</a></li>
+            <li><a href="https://github.com/andreasgrassialcon/survey-links/raw/main/brochure-revalia-avs.pdf" target="_blank">Brochure Revalia AVS</a></li>
+            <li><a href="https://github.com/andreasgrassialcon/survey-links/raw/main/brochure-ngenuity-avs.pdf" target="_blank">Brochure Ngenuity AVS</a></li>
+        </ul>
+    </main>
 </body>
 </html>
