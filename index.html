@@ -9,40 +9,37 @@
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
-      background-image: url('https://andreasgrassialcon.github.io/survey-links/background.png');
-      background-size: cover;
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      background-position: center;
-      color: white;
       text-align: center;
+      background: url('https://andreasgrassialcon.github.io/survey-links/background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
     }
-
-    #logo {
-      width: 150px; /* Larghezza del logo */
-      height: auto; /* Mantiene le proporzioni */
-      position: absolute; /* Permette di posizionarlo */
-      top: 10px; /* Distanza dal margine superiore */
-      left: 10px; /* Distanza dal margine sinistro */
+    .logo {
+      display: block;
+      margin: 20px auto;
+      max-width: 150px; /* Dimensione massima del logo */
+      height: auto;    /* Mantiene le proporzioni */
     }
-
-    .container {
-      margin-top: 100px; /* Sposta il contenuto in basso */
+    .content {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      border-radius: 10px;
+      display: inline-block;
+      margin-top: 50px;
     }
-
     a {
-      color: #FFD700; /* Colore del link */
-      text-decoration: none; /* Rimuove la sottolineatura */
+      color: #00BFFF;
+      text-decoration: none;
+      font-weight: bold;
     }
-
     a:hover {
-      text-decoration: underline; /* Sottolinea il link al passaggio del mouse */
+      text-decoration: underline;
     }
   </style>
 </head>
 <body>
-  <img id="logo" src="https://andreasgrassialcon.github.io/survey-links/logo.png" alt="Logo Azienda">
-  <div class="container">
+  <img src="https://andreasgrassialcon.github.io/survey-links/logo.jpg" alt="Logo Alcon" class="logo">
+  <div class="content">
     <h1>Materiali EYEVOLUTION</h1>
     <p>Qui può visualizzare e scaricare i seguenti materiali promozionali relativi all'evento:</p>
     <ul>
